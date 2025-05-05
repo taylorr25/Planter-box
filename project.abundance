@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1746413250048
+                    "ioValue": 1746415325272
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -2007,8 +2007,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5404109589041096,
-            "y": 0.5545243619489559,
+            "x": 0.5739726027397261,
+            "y": 0.2273781902552204,
             "uniqueID": 1746413250048,
             "ioValues": [
                 {
@@ -2055,8 +2055,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7157534246575342,
-            "y": 0.6937354988399073,
+            "x": 0.5945205479452055,
+            "y": 0.7587006960556845,
             "uniqueID": 1746414983887,
             "ioValues": [
                 {
@@ -2065,11 +2065,11 @@
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 36
+                    "ioValue": 58
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 45
+                    "ioValue": 46
                 },
                 {
                     "name": "Part Padding",
@@ -2080,173 +2080,319 @@
             "placements": [
                 {
                     "translate": {
-                        "x": 11,
-                        "y": 17.25
-                    },
-                    "id": 36,
-                    "rotate": 270
-                },
-                {
-                    "translate": {
-                        "x": -8,
-                        "y": 17.25
-                    },
-                    "id": 35,
-                    "rotate": 270
-                },
-                {
-                    "translate": {
-                        "x": -5.5,
-                        "y": 13.25
-                    },
-                    "id": 30,
-                    "rotate": 270
-                },
-                {
-                    "translate": {
-                        "x": -4,
-                        "y": 13.25
-                    },
-                    "id": 40,
-                    "rotate": 270
-                },
-                {
-                    "translate": {
-                        "x": 13.25,
-                        "y": 40.5
-                    },
-                    "id": 50,
-                    "rotate": 180
-                },
-                {
-                    "translate": {
                         "x": 17.25,
-                        "y": 43
-                    },
-                    "id": 45,
-                    "rotate": 180
-                },
-                {
-                    "translate": {
-                        "x": 19.5,
-                        "y": 17.25
-                    },
-                    "id": 51,
-                    "rotate": 90
-                },
-                {
-                    "translate": {
-                        "x": 17.25,
-                        "y": 45.5
+                        "y": 12
                     },
                     "id": 31,
                     "rotate": 0
                 },
                 {
                     "translate": {
-                        "x": 13.25,
-                        "y": 24.5
+                        "x": 10,
+                        "y": 18.75
                     },
-                    "id": 41,
-                    "rotate": 180
-                },
-                {
-                    "translate": {
-                        "x": 17.25,
-                        "y": 27
-                    },
-                    "id": 46,
-                    "rotate": 180
-                },
-                {
-                    "translate": {
-                        "x": 17.25,
-                        "y": 49
-                    },
-                    "id": 55,
-                    "rotate": 180
-                },
-                {
-                    "translate": {
-                        "x": 17.25,
-                        "y": 30
-                    },
-                    "id": 56,
-                    "rotate": 180
-                },
-                {
-                    "translate": {
-                        "x": 38.4927826,
-                        "y": 8.25
-                    },
-                    "id": 44,
-                    "rotate": 270
-                },
-                {
-                    "translate": {
-                        "x": 16.992783575598146,
-                        "y": 4.547258242578124
-                    },
-                    "id": 49,
+                    "id": 30,
                     "rotate": 90
                 },
                 {
                     "translate": {
-                        "x": 16.992783575598146,
-                        "y": 0.8445173425781256
+                        "x": 12.5,
+                        "y": 18.75
+                    },
+                    "id": 36,
+                    "rotate": 270
+                },
+                {
+                    "translate": {
+                        "x": 14,
+                        "y": 14.75
+                    },
+                    "id": 35,
+                    "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 17.25,
+                        "y": 44
+                    },
+                    "id": 41,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 17.25,
+                        "y": 25
+                    },
+                    "id": 40,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 13.25,
+                        "y": 25.5
+                    },
+                    "id": 45,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 13.25,
+                        "y": 47.5
+                    },
+                    "id": 46,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 17.25,
+                        "y": 50
+                    },
+                    "id": 51,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 13.25,
+                        "y": 30
+                    },
+                    "id": 55,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 17.25,
+                        "y": 32.5
+                    },
+                    "id": 50,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 26.75,
+                        "y": 42.5044289
+                    },
+                    "id": 34,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 13.25,
+                        "y": 53.5
+                    },
+                    "id": 56,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": -10.75,
+                        "y": -5.4994993
+                    },
+                    "id": 54,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": 17.989901075598144,
+                        "y": -15.249999957421874
                     },
                     "id": 39,
                     "rotate": 90
                 },
                 {
                     "translate": {
-                        "x": 38.4927826,
-                        "y": -2.8582228
+                        "x": 33.749292,
+                        "y": 42.5044289
                     },
-                    "id": 34,
+                    "id": 44,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 37.347510957421875,
+                        "y": 20.919423175598144
+                    },
+                    "id": 49,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": 38.847511,
+                        "y": 19.7095848
+                    },
+                    "id": 38,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 3.651101842578125,
+                        "y": 17.995441624401856
+                    },
+                    "id": 59,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 48.1508474,
+                        "y": 21.1752549
+                    },
+                    "id": 48,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 11.256133117578123,
+                        "y": 23.94073583647461
+                    },
+                    "id": 33,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 14.434598399999999,
+                        "y": 16.4442144
+                    },
+                    "id": 58,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": 14.650847417578124,
+                        "y": 42.67132673647461
+                    },
+                    "id": 53,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 56.5972415,
+                        "y": 29.4403383
+                    },
+                    "id": 37,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 41.5,
+                        "y": 19.4215338
+                    },
+                    "id": 47,
                     "rotate": 270
                 },
                 {
                     "translate": {
-                        "x": 3.24999996352539,
-                        "y": -8.358222782421874
-                    },
-                    "id": 33,
-                    "rotate": 90
-                },
-                {
-                    "translate": {
-                        "x": 17,
-                        "y": 25.1417772
-                    },
-                    "id": 58,
-                    "rotate": 90
-                },
-                {
-                    "translate": {
-                        "x": 0.23403521757812484,
-                        "y": 17.00000003647461
+                        "x": 15.934598417578123,
+                        "y": 20.945855636474608
                     },
                     "id": 43,
                     "rotate": 0
                 },
                 {
                     "translate": {
-                        "x": 2.1122922000000006,
-                        "y": 6.8917772
+                        "x": 46.9904974,
+                        "y": 9.9443154
                     },
                     "id": 57,
-                    "rotate": 180
+                    "rotate": 270
                 },
                 {
                     "translate": {
-                        "x": 10.4096203,
-                        "y": 54.4087996
+                        "x": 26.3546921,
+                        "y": -12.75
                     },
                     "id": 42,
+                    "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 19.7660828,
+                        "y": 54.1048567
+                    },
+                    "id": 52,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 21.2658158,
+                        "y": 55.6048567
+                    },
+                    "id": 32,
                     "rotate": 0
                 }
             ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7732876712328768,
+            "y": 0.39443155452436196,
+            "uniqueID": 1746415325272,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1746413250048
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": 1746415330479
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6623287671232877,
+            "y": 0.5823665893271461,
+            "uniqueID": 1746415330479,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746414983887
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 15
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.8116438356164383,
+            "y": 0.7819025522041763,
+            "uniqueID": 1746415515385,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746414983887
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Planter-box"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Planter-box"
         }
     ],
     "allConnectors": [
@@ -2280,13 +2426,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1746413250048,
-            "ap2ID": 1746411672827
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1746413250048,
@@ -2294,10 +2433,45 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1746413250048,
+            "ap2ID": 1746415325272
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": 1746413344813,
             "ap2ID": 1746413250048
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1746414983887,
+            "ap2ID": 1746415330479
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1746414983887,
+            "ap2ID": 1746415515385
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1746415325272,
+            "ap2ID": 1746411672827
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1746415330479,
+            "ap2ID": 1746415325272
         }
     ],
     "unitsKey": "Inches",
