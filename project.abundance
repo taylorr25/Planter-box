@@ -44,13 +44,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.23835616438356164,
-                    "y": 0.5707656612529003,
+                    "x": 0.33287671232876714,
+                    "y": 0.5452436194895591,
                     "uniqueID": 1746411994704,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1746412441684
+                            "ioValue": 1746412954813
                         },
                         {
                             "name": "height",
@@ -62,8 +62,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Rectangle-Rounded",
-                    "x": 0.09794520547945205,
-                    "y": 0.5777262180974478,
+                    "x": 0.0910958904109589,
+                    "y": 0.6890951276102089,
                     "uniqueID": 1746412441684,
                     "ioValues": [
                         {
@@ -622,21 +622,21 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Rectangle-Rounded",
-                    "x": 0.113013698630137,
-                    "y": 0.7540603248259861,
+                    "x": 0.09315068493150686,
+                    "y": 0.4501160092807424,
                     "uniqueID": 1746412799627,
                     "ioValues": [
                         {
                             "name": "Width",
-                            "ioValue": 40
+                            "ioValue": 42
                         },
                         {
                             "name": "Height",
-                            "ioValue": 21.5
+                            "ioValue": 19.5
                         },
                         {
                             "name": "Radius",
-                            "ioValue": 5
+                            "ioValue": 4
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -695,7 +695,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 8
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -709,7 +709,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 5
+                                    "ioValue": 4
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -724,11 +724,11 @@
                             "ioValues": [
                                 {
                                     "name": "H",
-                                    "ioValue": 21.5
+                                    "ioValue": 19.5
                                 },
                                 {
                                     "name": "R",
-                                    "ioValue": 5
+                                    "ioValue": 4
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -747,7 +747,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 15
+                                    "ioValue": 17
                                 },
                                 {
                                     "name": "yDist",
@@ -787,11 +787,11 @@
                             "ioValues": [
                                 {
                                     "name": "W",
-                                    "ioValue": 40
+                                    "ioValue": 42
                                 },
                                 {
                                     "name": "R",
-                                    "ioValue": 5
+                                    "ioValue": 4
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -806,11 +806,11 @@
                             "ioValues": [
                                 {
                                     "name": "H",
-                                    "ioValue": 21.5
+                                    "ioValue": 19.5
                                 },
                                 {
                                     "name": "R",
-                                    "ioValue": 5
+                                    "ioValue": 4
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -829,7 +829,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 15
+                                    "ioValue": 17
                                 },
                                 {
                                     "name": "yDist",
@@ -855,7 +855,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -15
+                                    "ioValue": -17
                                 },
                                 {
                                     "name": "yDist",
@@ -881,7 +881,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -15
+                                    "ioValue": -17
                                 },
                                 {
                                     "name": "yDist",
@@ -903,11 +903,11 @@
                             "ioValues": [
                                 {
                                     "name": "W",
-                                    "ioValue": 40
+                                    "ioValue": 42
                                 },
                                 {
                                     "name": "R",
-                                    "ioValue": 5
+                                    "ioValue": 4
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1178,6 +1178,24 @@
                     "unitsKey": "MM",
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.2232876712328767,
+                    "y": 0.5638051044083526,
+                    "uniqueID": 1746412954813,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1746412799627
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1746412441684
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 }
             ],
             "allConnectors": [
@@ -1190,9 +1208,23 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1746412441684,
+                    "ap2ID": 1746412954813
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1746412799627,
+                    "ap2ID": 1746412954813
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 1746412441684,
+                    "ap1ID": 1746412954813,
                     "ap2ID": 1746411994704
                 }
             ],
