@@ -1,14 +1,51 @@
 {
     "atomType": "Molecule",
-    "name": "Planter box",
+    "name": "Planter-box",
     "x": 0,
     "y": 0,
     "uniqueID": 1746411663818,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1746411672827,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1746411822132
+                }
+            ],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.6123287671232877,
+            "y": 0.5290023201856149,
+            "uniqueID": 1746411822132,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1746411822132,
+            "ap2ID": 1746411672827
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
