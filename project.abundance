@@ -14,7 +14,12 @@
             "x": 0.9773972602739726,
             "y": 0.5034802784222738,
             "uniqueID": 1746411672827,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1746413250048
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1196,6 +1201,181 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Split Apart And Layer",
+                    "x": 0.4856164383561644,
+                    "y": 0.7494199535962877,
+                    "uniqueID": 1746413624103,
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 1746411994704
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1746413624317,
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Geometry",
+                            "x": 0.04,
+                            "y": 0.6519721577726217,
+                            "uniqueID": 1746413640892,
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Split Apart",
+                            "x": 0.24246575342465754,
+                            "y": 0.740139211136891,
+                            "uniqueID": 1746413655325,
+                            "ioValues": [
+                                {
+                                    "name": "Geometry",
+                                    "ioValue": 1746411994704
+                                }
+                            ],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": 1746413655552,
+                                    "ioValues": [],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Geometry",
+                                    "x": 0.04,
+                                    "y": 0.6519721577726217,
+                                    "uniqueID": 1746413655743,
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                                },
+                                {
+                                    "atomType": "Molecule",
+                                    "name": "Molecule",
+                                    "x": 0.23904109589041098,
+                                    "y": 0.7679814385150813,
+                                    "uniqueID": 1746413669587,
+                                    "ioValues": [
+                                        {
+                                            "name": "Geometry",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": 1746413670256,
+                                            "ioValues": [],
+                                            "description": "Connect geometry here to make it available in the next level up. "
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Geometry",
+                                            "x": 0.04,
+                                            "y": 0.6519721577726217,
+                                            "uniqueID": 1746413669931,
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                                        },
+                                        {
+                                            "atomType": "Rectangle",
+                                            "name": "Rectangle",
+                                            "x": 0.2568493150684931,
+                                            "y": 0.5707656612529003,
+                                            "uniqueID": 1746413719667,
+                                            "ioValues": [
+                                                {
+                                                    "name": "x length",
+                                                    "ioValue": 10
+                                                },
+                                                {
+                                                    "name": "y length",
+                                                    "ioValue": 10
+                                                }
+                                            ],
+                                            "description": "Creates a new rectangle."
+                                        },
+                                        {
+                                            "atomType": "Rotate",
+                                            "name": "Rotate",
+                                            "x": 0.4109589041095891,
+                                            "y": 0.5545243619489559,
+                                            "uniqueID": 1746413759042,
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": 1746413719667
+                                                },
+                                                {
+                                                    "name": "x-axis degrees",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "y-axis degrees",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "z-axis degrees",
+                                                    "ioValue": 0
+                                                }
+                                            ],
+                                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                                        }
+                                    ],
+                                    "allConnectors": [
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 1746413719667,
+                                            "ap2ID": 1746413759042
+                                        }
+                                    ],
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": {}
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1746413640892,
+                            "ap2ID": 1746413655325
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -1205,6 +1385,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1746411994704,
                     "ap2ID": 1746411904986
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1746411994704,
+                    "ap2ID": 1746413624103
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1252,7 +1439,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 5
+                    "ioValue": 8.5
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1300,7 +1487,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 5
+                    "ioValue": 8.5
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1334,6 +1521,13 @@
             "ap2Primary": true,
             "ap1ID": 1746413204345,
             "ap2ID": 1746413344813
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1746413250048,
+            "ap2ID": 1746411672827
         },
         {
             "ap1Name": "geometry",
